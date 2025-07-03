@@ -16,7 +16,6 @@ public class CallableDemo {
 }
 
 class ReturnValueTask implements Callable<Integer> {
-
     @Override
     public Integer call() throws Exception {
         return 3;
