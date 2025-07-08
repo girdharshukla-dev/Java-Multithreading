@@ -11,10 +11,12 @@ public class CyclicBarrierDemo {
     });
 
     public static void main(String[] args) {
+
         for(int i=0;i<NUM_TOURISTS;i++){
             Thread touristThread = new Thread(new Tourist(i));
             touristThread.start();
         }
+        
     }
 
     static class Tourist implements Runnable {
