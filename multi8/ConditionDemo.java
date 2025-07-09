@@ -1,4 +1,3 @@
-package multi8;
 
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.LinkedList;

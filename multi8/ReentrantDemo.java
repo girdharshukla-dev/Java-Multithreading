@@ -1,5 +1,3 @@
-package multi8;
-
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ReentrantDemo {
@@ -30,7 +28,7 @@ public class ReentrantDemo {
             sharedData--;
             System.out.println("method2 shared data > "+sharedData);
         }finally{
-            // lock.unlock();
+            lock.unlock();
         }
     }
 }
