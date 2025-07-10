@@ -1,4 +1,4 @@
-package random;
+package questions;
 
 public class EvenOdd {
     private final static Object LOCK = new Object();
